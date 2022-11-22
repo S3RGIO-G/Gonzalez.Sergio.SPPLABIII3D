@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/filtros.css">
+  <link rel="stylesheet" href="./css/estilosTabla.css">
+  <link rel="stylesheet" href="./css/spinner.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/f88eed76ad.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <title>FILTRADO</title>
+</head>
+
+<body>
+  <header class="container-fluid px-xl-5 bg-primary">
+    <nav class="navbar container-fluid content-between">
+      <div class="col-md-3 col-lg-2">
+        <a class="navbar-brand" href="#">
+          <img src="./img/auto-bmw.png" alt="Logo" height="100px">
+        </a>
+      </div>
+      <ul class="nav align-items-center">
+        <li class="nav-item "><a class="nav-link text-light fs-6 p-1" href="./index.html">Nosotros</a></li>
+        <li class="nav-item "><a class="nav-link text-light fs-6 p-1" href="./anuncios.html">Anuncios</a>
+        </li>
+        <li class="nav-item "><a class="nav-link text-light fs-6 p-1" href="#">Blog</a></li>
+        <li class="nav-item "><a class="nav-link text-light fs-6 p-1" href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container-fluid p-0">
+    <div class="p-0">
+      <h1 class="m-0 text-center">Filtros</h1>
+    </div>
+    <div class="row m-0 bg-dark bg-gradient justify-content-center px-2">
+      <div class="col-sm-4 col-md-3 py-3">
+        <label class="text-light">Filtrar por :</label>
+        <select class="form-select form-select-lg " aria-label="form-select-lg example">
+          <option value="todos" selected>Todos</option>
+          <option value="venta">Venta</option>
+          <option value="alquiler">Alquiler</option>
+        </select>
+      </div>
+      <div class="col-sm-4 col-md-3 py-3">
+        <label class="text-light">Promedio de precios :</label>
+        <input class="form-control form-control-lg text-center" type="text" id="txtPromedio" disabled>
+      </div>
+      <div class="col-sm-8 col-md-3 py-3 offset-md-3 d-flex align-items-end justify-content-center">
+        <button class="btn btn-primary h-100 w-75 fs-3">Filtrar</button>
+      </div>
+    </div>
+
+    <section class="container-fluid d-grid py-5 position-relative">
+      <div class="bg-opacity-50 bg-primary bg-gradient text-center p-3" id="divChecks">
+        <h3 class="mt-3 mb-0 h2">Campos mostrados</h3>
+        <p class="mb-3 fs-5">(tildar los campos a mostrar)</p>
+        <hr>
+        <div class="row d-flex fw-bold p-0 justify-content-center" id="checksContainer">
+
+          <div
+            class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-1 mw-100 p-0 d-flex align-items-center justify-content-center">
+            <input class="form-check-input m-0 me-1" type="checkbox" name="titulo" id="checkTitulo" checked>
+            <label class="form-check-label " for="checkTitulo">TITULO</label>
+          </div>
+          <div
+            class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2 mw-100 p-0 d-flex align-items-center justify-content-center">
+            <input class="form-check-input m-0 me-1" type="checkbox" name="transaccion" id="checkTransaccion" checked>
+            <label class="form-check-label " for="checkTransaccion">TRANSACCION</label>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2 p-0 d-flex align-items-center justify-content-center">
+            <input class="form-check-input m-0 me-1" type="checkbox" name="descripcion" id="checkDescripcion" checked>
+            <label class="form-check-label " for="checkDescripcion">DESCRIPCION</label>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-1 p-0 d-flex align-items-center justify-content-center">
+            <input class="form-check-input m-0 me-1" type="checkbox" name="precio" id="checkPrecio" checked>
+            <label class="form-check-label " for="checkPrecio">PRECIO</label>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2 p-0 d-flex align-items-center justify-content-center">
+            <input class="form-check-input m-0 me-1" type="checkbox" name="puertas" id="checkPuertas" checked>
+            <label class="form-check-label " for="checkPuertas">PUERTAS</label>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2 p-0 d-flex align-items-center justify-content-center">
+            <input class="form-check-input m-0 me-1" type="checkbox" name="kilometros" id="checkKilometros" checked>
+            <label class="form-check-label " for="checkKilometros">KILOMETROS</label>
+          </div>
+          <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-1 p-0 d-flex align-items-center justify-content-center">
+            <input class="form-check-input m-0 me-1" type="checkbox" name="potencia" id="checkPotencia" checked>
+            <label class="form-check-label " for="checkPotencia">POTENCIA</label>
+          </div>
+        </div>
+      </div>
+      <div id="divTabla">
+
+      </div>
+      <div class="spinner position-absolute ">
+        <img src="./img/ruedaSpinner.png">
+      </div>
+      <div class="fondoSpinner h-100 w-100 position-absolute"></div>
+    </section>
+  </main>
+
+  <footer class="container-fluid justify-content-between px-3 bg-primary">
+    <div class="row h-100 justify-content-between text-center">
+      <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+        <ul class="nav d-flex align-items-center justify-content-center h-100">
+          <li class="nav-item"><a class="nav-link  text-light p-1" href="#">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link  text-light p-1" href="#">Anuncios</a></li>
+          <li class="nav-item"><a class="nav-link  text-light p-1" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link  text-light p-1" href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div
+        class="d-flex align-items-center justify-content-center col-12 col-sm-5 col-md-4 col-lg-3 text-light">
+        <p class="mb-0">Todos los derechos reservados &copy;</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="./js/filtros.js" type="module"></script>
+</body>
+
+</html>

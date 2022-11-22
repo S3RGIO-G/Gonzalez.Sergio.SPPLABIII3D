@@ -1,0 +1,16 @@
+#divTabla{
+  overflow-x: auto ;
+}
+
+table {
+  font-size: 1rem;
+}
+
+td {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+td::selection, th::selection {
+  background-color: unset;
+}

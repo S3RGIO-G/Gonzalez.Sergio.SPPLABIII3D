@@ -1,0 +1,13 @@
+
+section {
+  min-height: 85vh;
+}
+
+#divChecks{
+  height: max-content;
+}
+
+footer {
+  height: 100px;
+  font-size: 14px;
+}

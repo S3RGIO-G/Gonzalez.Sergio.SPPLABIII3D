@@ -1,0 +1,17 @@
+nav>div {
+  z-index: 100;
+}
+
+#backgroundPrincipal {
+  background-image: url('https://fondosmil.com/fondo/21960.jpg');
+  background-size: cover;
+}
+
+section>div>div {
+  background-color: #E5E5E5;
+}
+
+footer {
+  height: 100px;
+  font-size: 14px;
+}

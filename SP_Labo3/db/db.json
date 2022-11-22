@@ -1,0 +1,54 @@
+{
+  "anuncios": [
+    {
+      "id": 6,
+      "titulo": "Funciona la Ñ",
+      "transaccion": "venta",
+      "descripcion": "example",
+      "precio": "90000",
+      "puertas": "4",
+      "kilometros": "2000",
+      "potencia": "300"
+    },
+    {
+      "id": 9,
+      "titulo": "Este deberia ser el indice 9",
+      "transaccion": "alquiler",
+      "descripcion": "este deberia ser el indice 9",
+      "precio": "10000",
+      "puertas": "4",
+      "kilometros": "4000",
+      "potencia": "55"
+    },
+    {
+      "id": 10,
+      "titulo": "Probrando",
+      "transaccion": "alquiler",
+      "descripcion": "nose que poner",
+      "precio": "2000000",
+      "puertas": "4",
+      "kilometros": "4000",
+      "potencia": "250"
+    },
+    {
+      "id": 11,
+      "titulo": "testing",
+      "transaccion": "venta",
+      "descripcion": "testeandoando",
+      "precio": "100000",
+      "puertas": "4",
+      "kilometros": "4000",
+      "potencia": "300"
+    },
+    {
+      "id": 12,
+      "titulo": "agregando ñ",
+      "transaccion": "venta",
+      "descripcion": "noseasd ksadj23",
+      "precio": "400000",
+      "puertas": "2",
+      "kilometros": "2000",
+      "potencia": "234"
+    }
+  ]
+}
