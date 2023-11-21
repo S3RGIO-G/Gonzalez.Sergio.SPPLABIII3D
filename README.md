@@ -67,16 +67,16 @@ Además, puedes ver el listado de mesas existentes con su estado actual o visita
 <div align="center">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fmenu%2FScreenshot_20231118-101544.png?alt=media&token=94f98c20-993d-48a4-ad7f-ef4d7d9a2b01"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fmenu%2FScreenshot_20231118-101539.png?alt=media&token=c4963683-efa9-4f3c-b729-120790c4d474"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fmenu%2FScreenshot_20231118-101551.png?alt=media&token=6535a762-d931-496e-b7f9-bf8e3aa68e87"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fmenu%2FScreenshot_20231118-101600.png?alt=media&token=8ee91063-679e-468e-85ac-019db31ea231"
-    width="220" height="475">
+    width="200" height="475">
 </div>
 
 Si la ruta recibe el `QueryParam` **"buy=false"** solo podrás ver el listado de productos disponibles.
