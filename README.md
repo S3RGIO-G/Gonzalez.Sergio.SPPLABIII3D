@@ -53,14 +53,20 @@ En caso de `Iniciar sesión` y que tu solicitud aún no haya sido **aprobada** o
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2FScreenshot_20231118-094539.png?alt=media&token=f059b43a-af16-4cf4-9ce7-9692654cfc5a"
     width="220" height="475">
   <img
-    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2Fmesas.jpeg?alt=media&token=f9e3bfc5-6cf1-4278-83ab-12343d921a64"
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2FModal-mesas.jpeg?alt=media&token=cc5bb457-f64c-4cc7-b291-2251a698eb53"
+    width="220" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2Falta-mesa.jpeg?alt=media&token=c287d4ec-1485-4f55-bbb7-18573a038ee0"
     width="220" height="475">
 </div>
 
 Puedes acceder al listado solicitudes de registro pedientes, las cuales puedes **rechazar** o **aceptar**.
 <br>
-Además, puedes ver el listado de mesas existentes con su estado actual o visitar el listado de productos del `Menu`.
 <br>
+`Ver mesas`: Muestra todas las mesas con sus respectivos estados. Además, puedes agregar una nueva presionando el botón **`+`**, arriba a la derecha.
+<br>
+<br>
+`Ver productos`: Te permite visistar el menú disponible.
 
 ## Menu:
 
@@ -99,17 +105,21 @@ Despliega un modal en el que veras los detalles de tu pedido, ademas de poder mo
 <div align="center">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcocinero%26bartender%2FScreenshot_20231118-094630.png?alt=media&token=54b2125b-f6ee-4fcd-bc10-720323a4ab15"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcocinero%26bartender%2FScreenshot_20231118-094857.png?alt=media&token=90d39d58-3451-4cf4-90cc-403f609022a8"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcocinero%26bartender%2FScreenshot_20231118-094906.png?alt=media&token=a3cf8934-b683-44c3-a89c-c1cf55ecca16"
-    width="220" height="475">
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcocinero%26bartender%2Falta.jpeg?alt=media&token=0fb2bbb7-55fd-4aa5-a069-50b92e5a4978"
+    width="200" height="475">
 </div>
 
 Se tendrá acceso al listado de **pedidos pendientes**, de acuerdo al tipo de empleado, para prepararlos.
-
+<br>
+Además, podrás dar de alta un `nuevo producto` desde el **menú**, los tipos del producto dependienderán de si sos `Cocinero` o `Bartender`.
 ## Metre:
 
 <div align="center">
@@ -180,17 +190,17 @@ Despliega un modal similar al de `Cobrar mesa`, solo que al seleccionar una mesa
 ## Cliente:
 <div align="center">
   <img
-    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-101249.png?alt=media&token=a4670094-2a03-44ba-a655-9bcb45d7a167"
-    width="220" height="475">
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2Finit.jpeg?alt=media&token=1b8b3a94-d312-4ed6-a33a-4f1a4a51ce4f"
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-101302.png?alt=media&token=78dacf84-ec23-4aac-b44a-4fd1faaa3cf4"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-101318.png?alt=media&token=797147f2-d100-4602-bc50-f34ac91cbe67"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-101411.png?alt=media&token=7324f018-af53-4b41-9257-99971323367a"
-    width="220" height="475">
+    width="200" height="475">
 </div>
 
 Al inicio, podrás visitar las `reseñas` o escanear el QR de la lista de espera.
@@ -208,22 +218,22 @@ Ya asignado, puede comenzar a:
 <div align="center">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-110028.png?alt=media&token=2b1fbe20-1aef-4c04-88a9-e79b0bb93d54"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-101943.png?alt=media&token=9f0c6b20-e53e-46cd-b7e3-ec75a05b6bf5"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-102159.png?alt=media&token=c313bbee-b7cf-4d77-9ad3-77074d30d4a8"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-102250.png?alt=media&token=7435f46f-bc6f-4250-9139-49ec0e38b5de"
-    width="220" height="475">
+    width="200" height="475">
 </div>
 
 Al escanear el QR de la mesa se desplegará un modal con las opciones:
 - `Juegos` para ir a los juegos y acceder a descuentos.
-- `Hacer reseña` para completar una reseña sobre nuestra atención.
-- `Ver reseñas` para visitar la pagina de reseñas, se muestra cuando ya completaste tu reseña.
+- `Hacer encuesta` para completar una reseña sobre nuestra atención.
+- `Ver encuestas` para visitar la pagina de reseñas, se muestra cuando ya completaste tu reseña.
 - `Ver pedido` para hacer el seguimiento del **pedido activo**
 - `Pedir cuenta` para pagar la cuenta, se muestra cuando **no hay ningun pedido activo**.
 
@@ -233,18 +243,42 @@ Puedes ver en todo momento el estado de tu pedido activo, al `recibir el pedido`
 <div align="center">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-110507.png?alt=media&token=2f0e5a5f-0d68-4cf8-b4cc-54d322131987"
-    width="220" height="475">
+    width="200" height="475">
   <img
-    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-102418.png?alt=media&token=299b80a1-eac3-49c4-92a3-cc0b5b17f867"
-    width="220" height="475">
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FprevPagar.jpeg?alt=media&token=515935b4-4c3a-4f35-ad03-394df7dbe4bf"
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FpagarCuenta.jpeg?alt=media&token=8b3627f1-bb45-43a0-ae4a-67ebf82f8e2c"
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fcliente%2FScreenshot_20231118-102441.png?alt=media&token=6bc8936e-df92-40eb-8d52-42a2cac1982d"
-    width="220" height="475">
+    width="200" height="475">
 </div>
 
-Al pedir la cuenta se despliega un modal en el que verás todo lo consumido durante tu estadia, además de poder calcular la **propina** de acuerdo a la atención brindada.
+Al pedir la cuenta se despliega un modal en el que verás todo lo consumido durante tu estadía, además de poder establecer la **propina** escaneando el QR correspondiente.
+<br>
+El pago se hará a través de `Mercado pago`, (Tiene que ser un usuario de prueba, **no pueden ser cuentas reales de MP**).
 <br>
 Una vez hecho el pago, pasarás a esperar a que el `Mozo` **confirme el pago**.
+
+## Encuestas:
+<div align="center">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fresultado-encuestas%2Festadistica.jpeg?alt=media&token=b5985978-7d62-4aeb-b70d-4b60331d652e"
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fresultado-encuestas%2Festadistica%20(4).jpeg?alt=media&token=37642144-998f-49ba-9248-25abab9b82cb"
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fresultado-encuestas%2Festadistica%20(3).jpeg?alt=media&token=2c361ad2-7c83-469d-9da3-757ed94efa42"
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fresultado-encuestas%2Festadistica%20(2).jpeg?alt=media&token=7a876736-9049-4198-93fa-0831f5b29cfa"
+    width="200" height="475">
+</div>
+
+
+En esta pagina podrás ver las estadisticas de las respuestas, de los clientes, a la encuesta.
 
 
 
