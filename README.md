@@ -48,16 +48,16 @@ En caso de `Iniciar sesión` y que tu solicitud aún no haya sido **aprobada** o
 <div align="center">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2FScreenshot_20231118-093613.png?alt=media&token=0e6c0eed-dfda-4c99-86ea-873ffb963c38"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2FScreenshot_20231118-094539.png?alt=media&token=f059b43a-af16-4cf4-9ce7-9692654cfc5a"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2FModal-mesas.jpeg?alt=media&token=cc5bb457-f64c-4cc7-b291-2251a698eb53"
-    width="220" height="475">
+    width="200" height="475">
   <img
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fowner%2Falta-mesa.jpeg?alt=media&token=c287d4ec-1485-4f55-bbb7-18573a038ee0"
-    width="220" height="475">
+    width="200" height="475">
 </div>
 
 Puedes acceder al listado solicitudes de registro pedientes, las cuales puedes **rechazar** o **aceptar**.
