@@ -276,15 +276,31 @@ Una vez hecho el pago, pasarás a esperar a que el `Mozo` **confirme el pago**.
     src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fresultado-encuestas%2Festadistica%20(2).jpeg?alt=media&token=7a876736-9049-4198-93fa-0831f5b29cfa"
     width="200" height="475">
 </div>
-
-
 En esta pagina podrás ver las estadisticas de las respuestas, de los clientes, a la encuesta.
 
+## Hacer encuesta:
+<div align="center">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fencuesta.jpeg?alt=media&token=0afb4baf-56d3-4c77-bb13-64b7c0c17e84"
+    width="220" height="475">
+</div>
+En esta pagina podrás completar una encuesta para compartirnos tu experiencia.
 
-
-
-
-
-
+## Juegos:
+<div align="center">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fgames%2Fgames1.jpeg?alt=media&token=97a2d635-1bbe-4e12-9922-5b8fdc6ef675"
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fgames%2Fgames4.jpeg?alt=media&token=a1ff562a-06f5-47ac-b4ab-5678d6cff772"
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fgames%2Fgames3.jpeg?alt=media&token=5dfd3afb-ca0e-43b1-b51a-3ee35fd9d192"
+    width="200" height="475">
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/parcial-recursante.appspot.com/o/utils%2Fscreenshots%2Fgames%2Fgames2.jpeg?alt=media&token=2170eb62-d4a6-4292-a860-f03dd04fa591"
+    width="200" height="475">
+</div>
+Podes jugar para ganar descuentos `(acumulables)`, que se aplicaran al total de tu cuenta, siempre y cuando ganes en el primer intento.
 
 
